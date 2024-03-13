@@ -1,0 +1,56 @@
+body {
+  box-sizing: border-box;
+  background-color: #e7eae7;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  background-color: white;
+  padding: 30px;
+  width: 750px;
+}
+.image {
+  width: 400px;
+  margin-top: 10px;
+}
+.reg-form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+input {
+  padding: 10px;
+  margin: 10px;
+  border: 0px;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+h1 {
+  margin-top: 0;
+  width: 300px;
+  font-size: 28px;
+  margin-left: 10px;
+}
+.button {
+  margin-top: 30px;
+  background-color: #6d7070;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  height: 40px;
+  width: 150px;
+  margin-left: 85px;
+}
+p {
+  font-size: 10px;
+  color: red;
+  margin: 0;
+  padding: 0;
+}
